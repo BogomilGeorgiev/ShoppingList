@@ -1,0 +1,24 @@
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-right: 2px solid rgb(165, 210, 214);
+  border-width: 8px;
+}
+
+.add-form input,
+.add-form select,
+.add-form button,
+.list select {
+  background-color: rgb(165, 210, 214);
+  color: #0a0a0a;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 3.2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
